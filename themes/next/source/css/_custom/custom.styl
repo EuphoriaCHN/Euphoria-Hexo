@@ -1,0 +1,366 @@
+// Custom styles.
+/* 文章内链接文本样式 */
+.post-body a,
+.post-body p a,
+.post-body h2 a,
+.post-body h3 a,
+.post-body h4 a,
+.post-body li a {
+  color: #0593d3 !important;
+  border-bottom: 1px solid #0593d3 !important;
+
+  &:hover {
+    color: #fc6423 !important;
+    border-bottom: 1px solid #fc6423 !important;
+  }
+}
+
+a.btn {
+  display: inline-block!important;
+  padding: 0 20px!important;
+  font-size: 14px!important;
+  color: #555!important;
+  background: #fff!important;
+  border: 2px solid #555!important;
+  text-decoration: none!important;
+  border-radius: 2px!important;
+  transition-property: background-color!important;
+  transition-duration: 0.2s!important;
+  transition-timing-function: ease-in-out!important;
+  transition-delay: 0s!important;
+  line-height: 2!important;
+  word-wrap: break-word!important;
+  outline: none!important;
+}
+
+.post-body a.btn:hover {
+  border-color: #222!important;
+  color: #fff!important;
+  background: #222!important;
+}
+
+/* 自定义页脚样式 */
+.custom-footer {
+  color: rgba(52, 52, 52, 1.0);
+  border-top: 3px solid #9370db;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 0;
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+}
+
+/* 主页文章添加阴影效果 */
+.home {
+  //margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .8);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .8);
+}
+
+/* 奇怪的 post-footer */
+.post-footer {
+  display: none;
+}
+
+/* 背景图片透明度 */
+.backstretch {
+  opacity: .85;
+}
+
+/* 页面透明度 */
+.content-wrap, .sidebar {
+  opacity: .9 !important;
+}
+
+.header-inner {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* 去掉图片边框 */
+.posts-expand .post-body img {
+  border: none;
+  padding: 0;
+}
+
+.post-gallery .post-gallery-img img {
+  padding: 3;
+}
+
+/* 自定义的文章摘要图片样式 */
+img.img-topic {
+  max-width: 100%;
+  text-align: center;
+}
+
+.euphoria-footer {
+  color: rgba(52, 52, 52, 1.0);
+  border-top: 3px solid #9370db;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+/* 自定义页脚跳动的心样式 */
+@keyframes heartAnimate {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10%, 30% {
+    transform: scale(0.9);
+  }
+  20%, 40%, 60%, 80% {
+    transform: scale(1.1);
+  }
+  50%, 70% {
+    transform: scale(1.1);
+  }
+}
+
+#heart {
+  animation: heartAnimate 1.33s ease-in-out infinite;
+}
+
+.with-love {
+  color: rgb(255, 113, 168);
+}
+
+/* 自定义的侧栏时间样式 */
+#days {
+  display: block;
+  color: #007FFF;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/*By Euphoria*/
+
+.introduction {
+  color: #ff0000;
+}
+
+td {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+td, th {
+  border: 2px solid white;
+  font-size: 18px;
+}
+
+th {
+  background-color: #337ab7;
+  color: white;
+}
+
+.code {
+  text-align: left;
+  font-size: 14px;
+}
+
+code {
+  color: rgba(213, 0, 252, 0.91);
+  background: rgba(78, 240, 233, 0.55);
+  margin: 0 4px;
+  font-size: .9em;
+  border: 1px solid #d6d6d6;
+  border-radius: 3px;
+  padding: 2px 4px;
+  word-wrap: break-word;
+}
+
+code, pre {
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+}
+
+pre {
+  font-size: 16px !important;
+}
+
+.blue-target {
+  padding: 3px 5px;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #337ab7;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+.purple-target {
+  padding: 3px 5px;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #9954bb;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+.green-target {
+  padding: 3px 5px;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #2b6600;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+.red-target {
+  padding: 3px 5px;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #ff0000;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+.post-body h2 {
+  background: #2b6695;
+  border-radius: 6px 6px 6px 6px;
+  border: none;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #fff;
+  font-family: "微软雅黑", "宋体", "黑体", Arial;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 18px 0 18px -10px !important;
+  padding: 10px;
+  text-shadow: 2px 2px 3px #222;
+  font-size: 1.45em;
+  display: block;
+  cursor: default;
+}
+
+.post-body h3 {
+  background: #008791;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #fff;
+  font-family: "微软雅黑", "宋体", "黑体", Arial;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 16px 0 16px -7px !important;
+  padding: 5px 14px 3px 10px;
+  text-shadow: 2px 2px 3px #222;
+  border-bottom: 1px solid #eee;
+  display: block;
+  cursor: default;
+}
+
+.post-body h4 {
+  background: #2f7000;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 0 1px #5f5a4b, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+  color: #fff;
+  font-family: "微软雅黑", "宋体", "黑体", Arial;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 14px 0 14px !important;
+  padding: 5px 7px 3px 10px;
+  text-shadow: 2px 2px 3px #222;
+  border-bottom: 1px solid #eee;
+  display: block;
+  cursor: default;
+}
+
+.post-body h2 code, .post-body h3 code, .post-body h4 code {
+  font-size: inherit;
+  color: #fff;
+  background: 0 0;
+  border: none;
+  cursor: default;
+}
+
+.site-title:hover {
+  webkit-background-clip: text;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 1px #ddd;
+}
+
+.site-title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  text-shadow: 5px 5px 3px rgba(47, 138, 216, 0.47);
+  color: #329edc;
+}
+
+.note {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: initial;
+  border-left: 3px solid #eee;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  text-indent: 2em;
+}
+
+.note.info:before {
+  content: "\f05a";
+  position: absolute;
+  font-family: FontAwesome;
+  font-size: larger;
+  top: 11px;
+  left: -16px;
+  color: #428bca;
+}
+
+.note.info {
+  background-color: #eef7fa;
+  border-left-color: #428bca;
+}
+
+.note.danger:before {
+  content: "\f06a";
+  position: absolute;
+  font-family: FontAwesome;
+  font-size: larger;
+  top: 11px;
+  left: -16px;
+  color: #cc5250;
+}
+
+.node.danger {
+  border-left-color: #cc5250;
+  background-color: #fce7e9;
+}
+
+.note.success:before {
+  content: "\f058";
+  position: absolute;
+  font-family: FontAwesome;
+  font-size: larger;
+  top: 11px;
+  left: -16px;
+  color: #44cc2a;
+}
+
+.node.success {
+  border-left-color: #44cc2a;
+  background-color: #f1fce9;
+}
+
+.post-tags {
+  margin-top: 0;
+}
+
+.post-widgets {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin-top: 0;
+}
