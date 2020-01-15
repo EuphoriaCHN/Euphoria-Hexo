@@ -117,14 +117,6 @@ source/live2d-widget/README.md
 
 themes/next/.git
 themes/next/.github
-themes/next/.editorconfig
-themes/next/.eslintrc.json
-themes/next/.gitattributes
-themes/next/.gitignore
-themes/next/.stylintrc
-themes/next/.travis.yml
-themes/next/crowdin.yml
-themes/next/gulpfile.js
 themes/next/LICENSE.md
-themes/next/package.json
 themes/next/README.md
+
