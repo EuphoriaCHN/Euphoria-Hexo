@@ -126,7 +126,7 @@ themes/next/.gitignore
 themes/next/.stylintrc
 themes/next/.travis.yml
 themes/next/crowdin.yml
-themes/next/gulpfils.js
+themes/next/gulpfile.js
 themes/next/LICENSE.md
 themes/next/package.json
 themes/next/README.md
