@@ -107,3 +107,4 @@ dist
 public/
 package-lock.json
 package.json
+db.json
