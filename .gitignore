@@ -117,8 +117,6 @@ source/live2d-widget/README.md
 
 themes/next/.git
 themes/next/.github
-themes/next/docs/
-themes/next/languages/
 themes/next/.editorconfig
 themes/next/.eslintrc.json
 themes/next/.gitattributes
