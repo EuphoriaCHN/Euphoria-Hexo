@@ -108,3 +108,9 @@ public/
 package-lock.json
 package.json
 db.json
+
+source/live2d-widget/.git
+source/live2d-widget/assets/
+source/live2d-widget/demo/
+source/live2d-widget/LICENSE
+source/live2d-widget/README.md
