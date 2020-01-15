@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Added by Euphoria 2020-01-16
+public/
+package-lock.json
+package.json
