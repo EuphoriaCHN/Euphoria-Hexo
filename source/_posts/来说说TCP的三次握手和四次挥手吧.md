@@ -240,7 +240,7 @@ MSL 指一个片段在网络中最大的存活时间，2 MSL 就是一个发送�
 
 一图胜千言了...
 
-<img src="total.jfif" alt="总览" />
+<img src="total.png" alt="总览" />
 
 <hr />
 
