@@ -2,7 +2,7 @@
 	position: fixed;
 	writing-mode: vertical-rl;
 	bottom: 66px;
-	left: 0px;
+	left: 9px;
 	background-color: #fa0;
 	color: #fff;
 	border-radius: 5px;
@@ -10,11 +10,15 @@
 	font-size: 12px;
 	width: 60px;
 	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 #waifu {
 	position: fixed;
 	bottom: -1000px;
-	left: 0;
+	right: 0;
 	z-index: 1;
 	line-height: 0;
 	transition: transform .3s ease-in-out;
@@ -45,6 +49,10 @@
 	overflow: hidden;
 	position: absolute;
 	animation: shake 50s ease-in-out 5s infinite;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 #waifu #live2d {
 	position: relative;
@@ -63,7 +71,7 @@
 	color: #e8e8e8;
 	text-shadow: black 1px 1px 1px;
 	top: 70px;
-	right: -10px;
+	left: -10px;
 	position: absolute;
 	opacity: 0;
 	transition: opacity 1s;
