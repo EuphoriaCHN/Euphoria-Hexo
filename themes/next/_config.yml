@@ -216,11 +216,11 @@ links_settings:
   title: 哥哥们的博客
   # Available values: block | inline
   layout: block
-  【全能选手 Hang_ccccc】: https://hangcc.cn
-  【金牌选手 LuKelmouse】: https://www.cnblogs.com/lukelmouse/
-  【全栈选手 Galgaddott】: https://www.versewow.cn/
-  【国奖选手 Lofipure】: http://49.234.89.129/
-  /* 压缩图片快速入口 */ : https://imagecompressor.com/zh/
+#  【全能选手 Hang_ccccc】: https://hangcc.cn
+#  【金牌选手 LuKelmouse】: https://www.cnblogs.com/lukelmouse/
+#  【全栈选手 Galgaddott】: https://www.versewow.cn/
+#  【国奖选手 Lofipure】: http://49.234.89.129/
+#  /* 压缩图片快速入口 */ : https://imagecompressor.com/zh/
 
 links:
   #Title: http://yoursite.com
@@ -228,7 +228,8 @@ links:
   【金牌选手 LuKelmouse】: https://www.cnblogs.com/lukelmouse/
   【全栈选手 Galgaddott】: https://www.versewow.cn/
   【国奖选手 Lofipure】: http://49.234.89.129/
-  /* 压缩图片快速入口 */ : https://imagecompressor.com/zh/
+  /* 压缩图片快速入口 */: https://imagecompressor.com/zh/
+  /* 格式转换快速入口 */: https://convertio.co/zh/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
