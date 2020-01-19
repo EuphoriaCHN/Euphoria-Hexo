@@ -14,8 +14,6 @@ categories:
 copyright: true
 ---
 
-<link type="text/css" rel="stylesheet" href="../custom.css" />
-
 > <span class = 'introduction'>青少年是一个美好而又是一去不可再得的时期，是将来一切光明和幸福的开端。</span><br/>
 如果面试官问到你：“What is the difference between the Observer pattern and Pub-Sub pattern?”，你该怎么回答呢？
 
