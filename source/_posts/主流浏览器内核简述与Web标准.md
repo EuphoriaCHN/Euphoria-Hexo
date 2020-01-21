@@ -1,10 +1,11 @@
 ---
 title: 主流浏览器内核简述与Web标准
 date: 2019-09-28 19:35:56
+updated: 2020-01-22 00:43:12
 tags:
 - HTML
 - 浏览器
-- WEB
+- web
 categories:
 - 前端
 - 面经
