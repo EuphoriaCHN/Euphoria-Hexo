@@ -1,6 +1,7 @@
 ---
 title: 原生JavaScript实现Promise
 date: 2020-01-21 18:17:36
+updated: 2020-02-01 21:46:31
 tags:
 - Web
 - JavaScript
@@ -140,7 +141,7 @@ promise.then(onFulfilled, onRejected)
     <li><b>2.2.2.3.</b> 它的调用次数绝不能超过一次</li>
 </ul>
 
-**2.2.3.** 如果 `onFulfilled` 是一个函数：
+**2.2.3.** 如果 `onRejected` 是一个函数：
 
 <ul style="list-style: none;">
     <li><b>2.2.3.1.</b> 它必须在 promise 状态变为 <code>rejected</code> 之后调用，并使用 <em>value</em> 的值作为其第一个参数</li>
