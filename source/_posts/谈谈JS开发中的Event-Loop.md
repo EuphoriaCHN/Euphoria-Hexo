@@ -1,14 +1,16 @@
 ---
 title: 谈谈JS开发中的Event Loop
 date: 2020-02-06 20:20:37
-updated: 2020-02-07 19:40:00
+updated: 2020-02-10 21:47:30
 tags:
 - Web
 - JavaScript
+- Node.js
 categories:
 - 前端
 - 面经
 - JavaScript
+- Node.js
 ---
 
 <style>
