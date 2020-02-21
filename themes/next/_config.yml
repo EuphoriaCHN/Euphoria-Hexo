@@ -285,8 +285,8 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: true
-  awl: 4
-  wpm: 275
+  awl: 2
+  wpm: 200
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
