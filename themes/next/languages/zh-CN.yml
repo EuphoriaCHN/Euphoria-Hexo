@@ -5,12 +5,12 @@ title:
   tag: 标签
   schedule: 日程表
 menu:
-  home: 首页
-  archives: 归档
-  categories: 分类
-  tags: 标签
-  about: 关于
-  search: 搜索
+  home: 博客首页
+  archives: 菜单归档
+  categories: 文章分类
+  tags: 文章标签
+  about: 关于 Euphoria
+  search: 搜索（加载需时间）
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
@@ -19,13 +19,13 @@ sidebar:
   toc: 文章目录
 post:
   posted: 发表于
-  edited: 更新于
+  edited: 最后更新于
   created: 创建时间
-  modified: 修改时间
+  modified: 最后修改时间
   edit: 编辑
   in: 分类于
   more: 更多
-  read_more: 阅读全文
+  read_more: 进来康康
   untitled: 未命名
   sticky: 置顶
   views: 阅读次数
