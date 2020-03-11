@@ -83,7 +83,7 @@ optimization: { // 与 entry 同级
 
 ### CommonsChunkPlugin 被移除了
 
-<div class="node danger">Error: webpack.optimize.CommonsChunkPlugin has been removed, please use config.optimization.splitChunks instead.</div>
+<div class="note danger">Error: webpack.optimize.CommonsChunkPlugin has been removed, please use config.optimization.splitChunks instead.</div>
 
 `CommonsChunkPlugin` 主要是用来提取第三方库和公共模块，已被移除，用 `splitChunks` 替代，见 <a href="https://webpack.docschina.org/migrate/4/#commonschunkplugin">官方文档</a>。
 
@@ -130,7 +130,7 @@ optimization: {
 
 这个时候可能会报一个错：
 
-<div class="node danger">Path variable [contenthash] not implemented in this context: static/css/style.[contenthash].css</div>
+<div class="note danger">Path variable [contenthash] not implemented in this context: static/css/style.[contenthash].css</div>
 
 在之前版本中我们使用 `extract-text-webpack-plugin` 来提取 CSS 文件，不过在 webpack 4 中则应该使用 `mini-css-extract-plugin` 来提取 CSS 到单独文件中，基于 Webpack 3，更改如下：
 
@@ -205,7 +205,7 @@ module: {
 
 ### 内存溢出
 
-<div class="node danger">FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of...</div>
+<div class="note danger">FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of...</div>
 
 这个是内存溢出了，需要在启动命令中加一个空间 `--max_old_space_size=4096`：
 
