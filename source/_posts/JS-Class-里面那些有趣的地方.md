@@ -29,6 +29,8 @@ JavaScript 在 ES 6 中引入了 `class` 关键字，这个甜甜的语法糖给
 
 故本篇不再赘述～
 
+<div class="note info">本篇博客长时间更新，一次更新若干章节哦~</div>
+
 <hr />
 
 ## 类方法与实例方法
