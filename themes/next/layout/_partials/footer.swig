@@ -46,7 +46,7 @@
   <div class="beian">
 <!--    {{- next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}-->
     {%- if theme.footer.beian.gongan_icon_url %}
-    <img src="{{ theme.footer.beian.gongan_icon_url }}" style="display: inline-block;">
+    <img src="{{ theme.footer.beian.gongan_icon_url }}" style="display: inline-block; transform: translate(-8px, 4px)">
     {%- endif %}
     {{- next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}
     {%- if theme.footer.beian.gongan_id and theme.footer.beian.gongan_num %}
