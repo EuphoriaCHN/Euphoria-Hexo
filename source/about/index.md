@@ -93,7 +93,7 @@ Java SSM 会一点，第一个项目用的 Python Django，随后认认真真用
 
 前端除了 Angular 没有系统化的学习过，先学的 Vue 后转战 React，日后会继续写 RN 甚至用 Electron 或小程序去开发一些有趣的小玩意。
 
-剩下的就是数据库和 Linux 了，之前和 GinShio 大佬一起折腾给电脑装双系统或多系统（自学，就搞了好一阵子），了解如 Ubuntu、CentOS、Arch、OpenSUSE、Fedora 这样的系统。
+剩下的就是数据库和 Linux 了，之前和 GinShio 大佬一起折腾给电脑装双系统或多系统（自学，就搞了好一阵子），了解如 Ubuntu、CentOS、Arch、openSUSE、Fedora 这样的系统。
 
 数据库仅限于使用，虽学过理论知识，但还欠缺大规模数据的实战经验。
 

@@ -34,6 +34,8 @@ copyright: true
 
 <hr/>
 
+<div class="note info">本篇博客于 <i>2019-07-31</i> 完成，之后 Hexo 进行了多次版本迭代，某些配置对于新版本来说已经不再适用，最新配置请以官方文档为准！</div>
+
 ## 环境搭建
 ### 本人环境配置：
 - 服务器：腾讯云学生机，`Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-29-generic x86_64)`

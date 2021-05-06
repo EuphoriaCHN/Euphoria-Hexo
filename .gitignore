@@ -107,11 +107,11 @@ dist
 public/
 
 source/live2d-widget/.git
-source/live2d-widget/LICENSE
-source/live2d-widget/README.md
+# source/live2d-widget/LICENSE
+# source/live2d-widget/README.md
 
 themes/next/.git
 themes/next/.github
-themes/next/LICENSE.md
-themes/next/README.md
+# themes/next/LICENSE.md
+# themes/next/README.md
 
