@@ -9,4 +9,6 @@
 <!-- 自定义的js文件 -->
 <script type="text/javascript" src="/js/src/custom.js"></script>
 
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/live2d.min.js"></script>
+<script src="/live2d-widget/waifu-tips.js"></script>
 <script src="/live2d-widget/autoload.js"></script>

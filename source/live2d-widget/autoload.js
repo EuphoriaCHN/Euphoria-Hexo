@@ -2,38 +2,12 @@
 //const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
 const live2d_path = "/live2d-widget/";
 
-//加载waifu.css
-$("<link>").attr({ href: live2d_path + "waifu.css", rel: "stylesheet" }).appendTo("head");
-
-//加载live2d.min.js
-$.ajax({
-	url: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/live2d.min.js",
-	dataType: "script",
-	cache: true,
-	success(result) {
-        // console.log("加载 https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/live2d.min.js 成功");
-    },
-    error(err) {
-        console.log(err);
-    },
-});
-
-//加载waifu-tips.js
-$.ajax({
-	url: live2d_path + "waifu-tips.js",
-	dataType: "script",
-	cache: true,
-    success(result) {
-        // console.log("加载 " + live2d_path + "waifu-tips.js 成功");
-    },
-    error(err) {
-        console.log(err);
-    },
-});
-
 //初始化看板娘，会自动加载指定目录下的waifu-tips.json
-$(window).on("load", function() {
-	initWidget(live2d_path + "waifu-tips.json", "https://live2d.fghrsh.net/api");
+$(window).on("load", function () {
+    //加载waifu.css
+    $("<link>").attr({ href: live2d_path + "waifu.css", rel: "stylesheet" }).appendTo("head");
+
+    initWidget(live2d_path + "waifu-tips.json", "https://live2d.fghrsh.net/api");
 });
 //initWidget第一个参数为waifu-tips.json的路径
 //第二个参数为api地址（无需修改）

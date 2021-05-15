@@ -6,15 +6,18 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server -s",
+    "new": "SET FIRST=1 && node ./scripts/new.js",
+    "prod": "./build.sh && yarn server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "4.2.1"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "hexo": "^4.0.0",
-    "hexo-asset-image": "git+https://github.com/CodeFalling/hexo-asset-image.git",
+    "hexo-all-minifier": "^0.5.7",
+    "hexo-asset-image": "^1.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -29,5 +32,9 @@
     "hexo-wordcount": "^6.0.1",
     "medium-zoom": "^1.0.5",
     "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
   }
 }

@@ -19,8 +19,8 @@ search:
 
 # Site
 title: Euphoria's Blog
-subtitle: '<strong><font color="#FF0000">Quitters</font> Never Win,<br/> <font color="#007FFF">Winners</font> Never Quit.</strong>'
-description: '我摸到了<font color="#FF0000">梦</font>，<br/>也看到了<font color="#007FFF">光</font>。'
+# subtitle: '<strong><span style="color: #FF0000">Quitters</span> Never Win,<br/> <span style="color: #007FFF">Winners</span> Never Quit.</strong>'
+description: "我摸到了梦，<br/>也看到了光。"
 keywords: Euphoria
 author: 王钦弘
 language: zh-CN
@@ -114,3 +114,12 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# Minifier
+all_minifier: true
+
+image_minifier:
+  enable: false
+
+# html_minifier:
+#   enable: false
