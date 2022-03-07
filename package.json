@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server -s",
+    "server": "hexo server -s -p 7701",
     "new": "SET FIRST=1 && node ./scripts/new.js",
     "prod": "./build.sh && yarn server"
   },

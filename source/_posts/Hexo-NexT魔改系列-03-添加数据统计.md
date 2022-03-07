@@ -254,7 +254,7 @@ show_date_time();
       <span>&nbsp;|&nbsp;
         <span class="post-meta-item-icon">
           <i class="fa fa-search"></i>
-        </span> 备案号&#58; <a href = "http://www.beian.miit.gov.cn">陕ICP备xxxxxxxx号</a>
+        </span> 备案号&#58; <a href = "https://beian.miit.gov.cn">陕ICP备xxxxxxxx号</a>
       </span>
     </span>
 {% endif %}
